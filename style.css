@@ -67,3 +67,41 @@ img:hover {
   padding: 1rem;
   border-radius: 1rem;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    height: 4rem;
+    padding-top: 0.8rem;
+  }
+
+  img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .score-board {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #msg {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  #user-count,
+  #computer-count {
+    font-size: 2rem;
+  }
+
+  .main-container {
+    gap: 15px;
+  }
+}
